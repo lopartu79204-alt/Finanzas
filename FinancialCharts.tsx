@@ -6,7 +6,7 @@ interface Props {
   transactions: Transaction[];
 }
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#mx-red'];
+const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#CE1126'];
 
 export const ExpensePieChart: React.FC<Props> = ({ transactions }) => {
   const expenses = transactions.filter(t => t.type === 'expense');
